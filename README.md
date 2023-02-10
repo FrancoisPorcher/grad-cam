@@ -98,6 +98,10 @@ A fine-tuned `DenseNet-121` achieves `95.83% accuracy`, not bad!
 
 - We then normalize all the values in the grid with a min-max normalization, and plot the tensor with a heatmap.
 
+- Remark: At the end we in fact have a 7x7 heatmap, but the original image is 224x224, so how do we go back to the original image?
+
+Each of the pixel in the 7x7 heatmap is like a patch from the original image, so we resize the small heatmap in a picture with higher pixel density with the `cv2.resize` function.
+
 
 ### Some examples
 
