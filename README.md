@@ -133,6 +133,10 @@ Each of the pixel in the 7x7 heatmap is like a patch from the original image, so
  ```bash
  pip install -r requirements.txt
  ```
+ - Run the `main` file! Nothing else to do! (But feel free to explore the other files)
+ ```bash
+ main.ipynb
+ ```
 
 
 ## Conclusion
