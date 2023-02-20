@@ -5,7 +5,7 @@
 
 - Making AI more interpretable is crucial especially in healthcare, where professionals should be able to explain the factors driving the decision of a model.
 
-- This is my implentation of **GradCAM** [[1]](https://arxiv.org/pdf/1610.02391.pdf) in `PyTorch`, an AI visualization technique that uses a technique called “gradient-weighted class activation mapping” (GradCAM) to interpret medical images. 
+- This is my implentation of **GradCAM** [[1]](https://arxiv.org/pdf/1610.02391.pdf) in `PyTorch`, an AI visualization technique that uses a technique called “gradient-weighted class activation mapping” (GradCAM) to better interpret the model's predictions on medical images. 
 
 <p align="center">
  <img src="imgs/lungs_wallpaper.jpg" width="100%" height="100%">
@@ -25,7 +25,7 @@
 
 ## What is GradCAM?
 
-- GradCAM is a step toward interpretable AI in Computer Vision. It is a visualization technique used in Computer Vision that allows users to understand which parts of an image are driving the model's decision.
+- GradCAM is a step toward interpretable AI in Computer Vision. It is a visualization technique used in Computer Vision which allows users to understand which parts of an image are driving the model's decision.
 
 - For example if we have an image of lungs, and the model predicts that the patient has a pneumonia, we want to know which part of the image is most likely responsible for this decision. GradCAM will highlight those areas in the image.
 
