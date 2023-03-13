@@ -37,7 +37,7 @@
 
 ## Dataset
 
- - We will use the kaggle dataset **COVID-19 Radiography Database** [[2]](https://www.kaggle.com/c/kaggle-survey-2019), which is a set of annotated chest X-ray images for COVID-19 positive cases along with Normal and Viral Pneumonia images.
+ - We use the kaggle dataset **COVID-19 Radiography Database** [[2]](https://www.kaggle.com/c/kaggle-survey-2019), which is a set of annotated chest X-ray images for COVID-19 positive cases along with Normal and Viral Pneumonia images.
  - This dataset was assembled by team of researchers from Qatar University, Doha, Qatar, and the University of Dhaka, Bangladesh along with their collaborators from Pakistan and Malaysia in collaboration with medical doctors.
  
 Some samples of the dataset:
